@@ -26,7 +26,7 @@ end
 
 local ANYA = getgenv().ANYA
 
-else ANYA == "BananaCat" then
+if ANYA == "BananaCat" then
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yeuemnhungkhongvoitoi/ANYA-Script/refs/heads/main/BananaCatMenu.txt"))()
 
@@ -34,7 +34,7 @@ elseif ANYA == "BananaCatKaitunLevi" then
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yeuemnhungkhongvoitoi/ANYA-Script/refs/heads/main/BananaCatKaitunLevi.txt"))()
     
-elseif ANYA == "BananaCatBountyM1"
+elseif ANYA == "BananaCatBountyM1" then
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yeuemnhungkhongvoitoi/ANYA-Script/refs/heads/main/BananaCatAutoBountyM1.lua"))()
 
@@ -42,11 +42,11 @@ elseif ANYA == "BananaCatBountyOLD" then
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yeuemnhungkhongvoitoi/ANYA-Script/refs/heads/main/BananaCatAutoBountySkill.txt"))()
 
-elseif ANYA == "BananaCatOneClickV4"
+elseif ANYA == "BananaCatOneClickV4" then
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yeuemnhungkhongvoitoi/ANYA-Script/refs/heads/main/BananaCatOneClickV4.lua"))()
 
-elseif ANYA == "BananaCatMainV4"
+elseif ANYA == "BananaCatMainV4" then
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yeuemnhungkhongvoitoi/ANYA-Script/refs/heads/main/BananaCatAutoV4Menu.txt"))()
 
@@ -54,27 +54,27 @@ elseif ANYA == "BananaCatKaitunLevel" then
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yeuemnhungkhongvoitoi/ANYA-Script/refs/heads/main/BananaCatKaitunBloxFruits.lua"))()
 
-elseif ANYA == "BananaCatPVP"
+elseif ANYA == "BananaCatPVP" then
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yeuemnhungkhongvoitoi/ANYA-Script/refs/heads/main/BananaCatSupportPvP.lua"))()
 
-elseif ANYA == "BananaCatFindFruit"
+elseif ANYA == "BananaCatFindFruit" then
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yeuemnhungkhongvoitoi/ANYA-Script/refs/heads/main/BananaCatAutoFindFruits.txt"))()
 
-elseif ANYA == "BananaCatFarmBoss"
+elseif ANYA == "BananaCatFarmBoss" then
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yeuemnhungkhongvoitoi/ANYA-Script/refs/heads/main/BananaCatAutoFarmAllBoss.lua"))()
 
-elseif ANYA == "BananaCatKaitunFishit"
+elseif ANYA == "BananaCatKaitunFishit" then
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yeuemnhungkhongvoitoi/ANYA-Script/refs/heads/main/BananaCatKaitunFishIt.lua"))()
 
-elseif ANYA == "BananaCatKaitunSAB"
+elseif ANYA == "BananaCatKaitunSAB" then
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yeuemnhungkhongvoitoi/ANYA-Script/refs/heads/main/BananaCatKaitunStealABrainRot.txt"))()
 
-elseif ANYA == "BananaCatKaitun99N"
+elseif ANYA == "BananaCatKaitun99N" then
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yeuemnhungkhongvoitoi/ANYA-Script/refs/heads/main/BananaCatKaitun99Night.lua"))()
 
@@ -86,7 +86,7 @@ elseif ANYA == "MaruKaitun" then
     
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yeuemnhungkhongvoitoi/ANYA-Script/refs/heads/main/MaruKaitun.lua"))()
 
-elseif ANYA == "MaruThaiLand"
+elseif ANYA == "MaruThaiLand" then
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yeuemnhungkhongvoitoi/ANYA-Script/refs/heads/main/MaruMenuThaiLand.lua"))()
 

@@ -10,7 +10,7 @@ end)
 hwid = tostring(hwid):lower()
 
 local ALLOWED_EXEC = {
-    ["delta"] = true
+    ["Delta"] = true
 }
 
 local ALLOWED_HWID = {

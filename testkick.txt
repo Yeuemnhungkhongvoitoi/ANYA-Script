@@ -11,17 +11,16 @@ local VALID_KEY = ("8ea8635ad0a46c58a477a10726067afc223adccf3b0f7f84d5682505620a
 local currentKey = buildKey(androidID)
 
 local function stop()
-    task.spawn(function()
-        while true do end
+    
+    task.defer(function()
+        player:Kick("chỉ áp dụng trên exploit same hwid của anya")
     end)
-    player:Kick("Access denied")
 end
 
 if currentKey ~= VALID_KEY then
-    return stop()
+    stop()
+    return
 end
-
-print("Access granted")
 
 
 local ANYA = getgenv().ANYA
